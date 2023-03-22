@@ -42,19 +42,22 @@
 
 // Завдання4
 
-// let arv = [5, 3, 8, 5, 3, 2, 1, 2]
-// arv.forEach(function(item, index, b){
-//     console.log(item)
-// });
+// let a = [5, 3, 8, 5, 3, 2, 1, 2];
+// let b = a.filter((item,index) => {
+//   return  a.indexOf(item) == index
+// })
+// console.log (b)
 
-// 5 3 8 2 1 
-// Завдання5
-let users = [{id:1, age: 17},
-    {id:2, age: 18}, 
-    {id:3, age: 19}, 
-    {id:4, age: 21}, 
-    {id:5, age: 17}, 
-    {id:6, age: 20}, 
-    {id:7, age: 25},  ]
-let notadults= users.filter(item=> item.age>18 && item.age<21)
-console.log(notadults)
+// // Завдання5
+// let users = [{id:1, age: 17},
+//     {id:2, age: 18}, 
+//     {id:3, age: 19}, 
+//     {id:4, age: 21}, 
+//     {id:5, age: 17}, 
+//     {id:6, age: 20}, 
+//     {id:7, age: 25},  ]
+// let notadults= users.filter(item=> item.age>18 && item.age<21);
+// console.log(notadults);
+// notadults.forEach(function(iteam,index){
+// console.log(notadults[index]['id'])
+// })
