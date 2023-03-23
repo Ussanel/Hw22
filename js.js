@@ -42,12 +42,20 @@
 
 // Завдання4
 
-// let a = [5, 3, 8, 5, 3, 2, 1, 2];
+// const a = [5, 3, 8, 5, 3, 2, 1, 2];
+// Метод 1
 // let b = a.filter((item,index) => {
 //   return  a.indexOf(item) == index
 // })
 // console.log (b)
-
+// Метод2
+// const b = [];
+// a.forEach((item) => {
+//     if (!b.includes(item)){
+//         b.push(item);
+//     }
+// })
+// console.log (b)
 // // Завдання5
 // let users = [{id:1, age: 17},
 //     {id:2, age: 18}, 
